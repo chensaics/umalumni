@@ -1,0 +1,60 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - 你好
+    - 你好呀
+    - 嗨
+    - 有人吗
+
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - bye bye
+    - 再见
+    - 拜拜
+    - 88
+    - 好的，谢谢
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - 是的
+    - 是
+    - 好的
+    - 好
+    - OK
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - 不
+    - 不是
+    - 不对
+    - 不好
+    - 不OK
+
+- intent: 填写问卷
+  examples: |
+    - 校友会问卷
+    - 校友信息收集
+    - 如何填表
+    - 怎么填校友会的表？
+    - 填问卷，校友会的
+    - 我是校友如何填写信息
+
+
+- intent: bot_challenge
+  examples: |
+    - 你是机器人?
+    - 谁生产了你
+    - 你爸爸是谁
+    - 你妈妈是谁
